@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+.login{
+    width: 100%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    
+    justify-content: space-between;
+    
+}
+.logo{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    margin-top: 12px;
+   
+    
+}
+.registro{
+    width: 500px;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    border: 2px solid  #D5DBDB  ;
+    border-radius: 15px;
+    padding:  30px;
+    margin-bottom: 30px;
+    background-color: antiquewhite;
+   
+}
+.registro2{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    border: 2px solid  #D5DBDB  ;
+    border-radius: 15px;
+    padding:  30px;
+    margin-bottom: 30px;
+    background-color: antiquewhite;
+   
+}
+.body{
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+} 
+.body2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+}
+.texto{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid  #D5DBDB  ;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.info{
+    padding: 20px;
+}
+.sidebar{
+    position: absolute;
+    height: 700px;
+    background-color: #85929E;
+    color: white;
+    width: 15%;
+    
+  
+
+}
+.sidebar ul{
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0px;
+}
+.sidebar a{
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+.sidebar h2{
+    display: block;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    background-color:#34495E; 
+}
+.sidebar li{
+    transition-property: background;
+    transition-duration: 1s; 
+    margin :0px;
+}
+.sidebar li:hover{
+    background: #444;
+    
+}
+.alta-paquete{
+    width: 30%;
+    border: 1px solid grey;
+    padding: 20px;
+    background-color: #D5DBDB;
+    border-radius:10px; 
+    overflow-y:scroll; 
+    height: 350px;
+
+}
+.paquetes{
+    width: 70%;
+    border: 1px solid grey;
+    padding: 20px;
+    background-color: #D5DBDB;
+    border-radius:10px; 
+    overflow-y:scroll; 
+    height: 350px;
+}
+.pagina{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+}
+.tabla{
+    margin: auto;
+    width: 90%;
+}
+.cl{
+    margin-top:50px; 
+}
+.contenedor{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
