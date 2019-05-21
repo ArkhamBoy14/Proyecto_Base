@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MiBoda.com</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/css/estilos.css">
+</head>
+<body>
+     <div class="contenedor">
+        <div class="body">
+        <div class="registro">
+            <h1>Inicia sesión</h1>
+                <form  method="POST"  action="php/login.php" >
+                      <div class="form-group col-md-12">
+                                  <input type="email" class="form-control" name="correo"  required  placeholder="correo@dominio.com">
+                      </div>
+                      <div class="form-group col-md-12">
+                                  <input type="password" class="form-control" name="password" required pattern="[A-Za-z0-9_-]{1,30}" placeholder="Contraseña">
+                      </div>
+                      <div class="form-group col-md-12">
+                                  <button type="submit" class="btn btn-secondary">Iniciar Sesion</button>
+                      </div>  
+                </form>
+         </div>
+       
+      </div>
+      <div class="body">
+        <div class="registro" >
+            <h1>Registrate</h1>
+                <form  method="POST"  action="php/registro_usuarios.php" >
+                 <div class="form-group col-md-12">
+                            <label for="inputPassword4">Numero de control</label>
+                            <input type="text" class="form-control"  name="numero" placeholder="ingresa tu  numero de control">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="inputAddress">Nombre</label>
+                            <input type="text" class="form-control" name="nombre"  pattern=".{3,}" placeholder="Nombre(s)">
+                          </div>
+                        <div class="form-group col-md-12">
+                            <label for="inputAddress2">Apellidos</label>
+                            <input type="text" class="form-control"  pattern=".{2,}" name="apellido" placeholder="Apellido(s)">
+                        </div>
+                         <div class="form-group col-md-12">
+                            <label for="inputAddress2">Direccion</label>
+                            <input type="text" class="form-control" name="dir" placeholder="escribe tu direccion">
+                        </div>
+                        <div class="form-group col-md-12">
+                              <label for="inputAddress2">Telefono</label>
+                              <input type="text" class="form-control"  pattern=".{10,}" name="telefono" placeholder="0180023819">
+                        </div>
+                    
+                        <div class="form-group col-md-12">
+                            <label for="inputEmail4">Correo</label>
+                            <input type="email" class="form-control" pattern=".{8,}" name="correo" placeholder="correo@dominio.com">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="inputPassword4">Crea una contraseña</label>
+                            <input type="password" class="form-control" pattern=".{4,}" name="pass" placeholder="Contraseña">
+                        </div>
+                         <div class="form-group col-md-12">
+                            <label for="inputState">Sexo alumno</label>
+                            <select id="inputState" name="sexo"  required class="form-control">
+                              <option >...</option>
+                              <option>Hombre</option>
+                              <option>Mujer</option>
+                            </select>
+                          </div>
+                         <div class="form-group col-md-12">
+                            <label for="inputState">Tipo de Usuario</label>
+                            <select id="inputState" name="tipo"  required class="form-control">
+                              <option >...</option>
+                              <option>agente</option>
+                              <option>cliente</option>
+                            </select>
+                          </div>
+                         
+                         <div class="form-group col-md-12">
+                            <label >fecha de nacimiento</label>
+                            <input type="date" class="form-control"   name="fecha" >
+                        </div>     
+                         <div class="form-group col-md-12">
+                            <label for="inputPassword4">Nombre del tutor</label>
+                            <input type="text" class="form-control"   name="nombre_tu" >
+                        </div>     
+                         <div class="form-group col-md-12">
+                            <label for="inputPassword4">Apellido paterno del tutor</label>
+                            <input type="text" class="form-control"   name="app_tu" >
+                        </div>     
+                         <div class="form-group col-md-12">
+                            <label for="inputPassword4">Apellido materno del tutor</label>
+                            <input type="text" class="form-control"   name="apm_tu" >
+                        </div>     
+                       
+                        <div class="form-group col-md-12">
+                          <button type="submit" class="btn btn-secondary">Registrarme</button>
+                        </div>
+                        
+                        
+                </form>
+         </div>
+       
+      </div>
+   </div>  
+</body>
+</html>
