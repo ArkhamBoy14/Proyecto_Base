@@ -1,7 +1,7 @@
 <?php
             $cc=$_GET['correo'];
             $pss=$_GET['password'];
-            include 'database.php';
+            include 'config.php';
             $SQL=$conn->prepare("SELECT * FROM usuarios WHERE user = '$cc' and pass= '$pss'");
             if ($SQL->execute()){
                  header("location:../msj.html");
