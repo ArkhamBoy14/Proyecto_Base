@@ -1,5 +1,5 @@
 <?php
-  $enlace = mysqli_connect("127.0.0.1", "root", "", "base");
+  $enlace = mysqli_connect("127.0.0.1", "root", "3039646363", "base");
 
 if (!$enlace) {
     echo "Error: No se pudo conectar a MySQL." . PHP_EOL;

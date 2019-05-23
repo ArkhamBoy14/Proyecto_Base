@@ -12,16 +12,16 @@
      <div class="contenedor">
         <div class="body">
         <div class="registro">
-            <h1>Registrate</h1>
-                <form  method="POST"  action="php/registro_usuarios.php" >
+            <h1>Iniciar sesión</h1>
+                <form  method="POST"  action="php/funcion.php" >
                       <div class="form-group col-md-12">
                                   <input type="email" class="form-control" name="correo"  required  placeholder="correo@dominio.com">
                       </div>
                       <div class="form-group col-md-12">
-                                  <input type="password" class="form-control" name="password" required pattern="[A-Za-z0-9_-]{1,30}" placeholder="Contraseña">
+                                  <input type="password" class="form-control" name="password" required pattern="[A-Za-z0-9_-]{1,30}" placeholder="Contraseña"> 
                       </div>
                       <div class="form-group col-md-12">
-                                  <button type="submit" class="btn btn-secondary">Iniciar Sesion</button>
+                                  <button type="submit" name="data" value="sesion" class="btn btn-secondary">Iniciar Sesion</button>
                       </div>  
                 </form>
          </div>

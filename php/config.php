@@ -1,8 +1,8 @@
 <?php
-$conexion = new mysqli('localhost', 'root', '', 'base');	
+$conexion = new mysqli('localhost', 'root', '3039646363', 'base');	
 $conexion->set_charset('utf8');
 try{
-	$conn=new PDO('mysql:host=localhost;dbname=base','root','');
+	$conn=new PDO('mysql:host=localhost;dbname=base','root','3039646363');
 }catch(PDOExeption $e ){
 	print "error".$e->getMessage()."</br>";
 }
